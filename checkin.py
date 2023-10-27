@@ -9,8 +9,8 @@ from urllib import parse
 
 s = requests.Session()
 
-username = "18873000217"
-password = "Mimori2008"
+username = ""
+password = ""
 
 if(username == "" or password == ""):
     username = input("账号：")
